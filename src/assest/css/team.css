@@ -1,0 +1,9 @@
+.team_mem_wrapper {
+    padding: 120px 0px 120px 0px;
+}
+
+@media (max-width: 991px) {
+    .team_mem_wrapper {
+        padding: 120px 0px 120px 0px;
+    }
+}
