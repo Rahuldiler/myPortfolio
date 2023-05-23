@@ -7,6 +7,8 @@ import TeamMember from './TeamMember'
 import FAQ from './FAQ';
 import Progress from './Progress'
 import Quote from './Quote'
+import WorkProgress from './WorkProgress'
+import Testinomial from './Testinomial'
 
 const Home = () =>
 {
@@ -19,6 +21,8 @@ const Home = () =>
             <FAQ />
             <Progress />
             <Quote />
+            <WorkProgress />
+            <Testinomial />
         </Layout>
 
     )

@@ -37,6 +37,7 @@
     --text-color: #1a1a1a;
     --text-color2: #184375;
     --link-coolor: #55595d;
+    --bg-color:#152B54;
     --button-bg-color: #184375;
     --button-color: #fff;
     --font-size-icon: 2rem;
@@ -96,7 +97,8 @@ a {
 }
 .blue_btn svg,
 .light_btn svg,
-.contact_btn svg {
+.contact_btn svg,
+.smoke_btn svg {
     font-size: 22px;
 }
 .light_btn {
@@ -261,13 +263,22 @@ a {
 }
 .service_title {
     color: var(--text-color);
-    font-size: 20px;
-    font-family: "ExoSemiBold";
+    font-size: 22px;
+    font-family: "Bold";
 }
 .detail_text {
     display: block;
     color: var(--link-coolor);
     font-size: 16px;
+    font-family: ExoSemiBold;
+    margin: 0 0 18px 0;
+    display: block;
+    line-height: 1.63;
+}
+.detail_text2 {
+    display: block;
+    color: var(--link-coolor);
+    font-size: 14px;
     font-family: ExoSemiBold;
     margin: 0 0 18px 0;
     display: block;
@@ -364,6 +375,9 @@ a {
         font-size: 14px;
     }
     .detail_text {
+        text-align: justify;
+    }
+    .detail_text2 {
         text-align: justify;
     }
     section {

@@ -9,6 +9,7 @@ import
   BiRightArrowAlt,
   BiMenu
 } from "react-icons/bi";
+// import logo from "../../assest/images/logomain.png"
 import { Link, NavLink } from 'react-router-dom';
 const Header = () =>
 {

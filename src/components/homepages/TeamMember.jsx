@@ -61,7 +61,7 @@ const TeamMember = () =>
                                 <h3 className='service_title text-center my-3'>
                                     Pankaj Yadav
                                 </h3>
-                                <p className='detail_text text-center mb-3'>Sr. MERN Developer</p>
+                                <p className='detail_text2 text-center mb-3'>Sr. MERN Developer</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
@@ -89,7 +89,7 @@ const TeamMember = () =>
                                 <h3 className='service_title text-center my-3'>
                                     Suhail Sidduiqi
                                 </h3>
-                                <p className='detail_text text-center mb-3'>Web Designer</p>
+                                <p className='detail_text2 text-center mb-3'>Web Designer</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
@@ -117,7 +117,7 @@ const TeamMember = () =>
                                 <h3 className='service_title text-center my-3'>
                                     Pankaj Yadav
                                 </h3>
-                                <p className='detail_text text-center mb-3'>Sr. MERN Developer</p>
+                                <p className='detail_text2 text-center mb-3'>Sr. MERN Developer</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
@@ -145,7 +145,7 @@ const TeamMember = () =>
                                 <h3 className='service_title text-center my-3'>
                                     Suhail Sidduiqi
                                 </h3>
-                                <p className='detail_text text-center mb-3'>Web Designer</p>
+                                <p className='detail_text2 text-center mb-3'>Web Designer</p>
                             </div>
                         </div>
                     </div>
