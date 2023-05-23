@@ -91,7 +91,7 @@ const Header = () =>
               <NavLink className="nav_item"  to="/">Contact Us</NavLink>
             </li>
           </ul>
-          <Link class="cta">
+          <Link className="cta">
             <span>Get In Touch</span>
             <BiRightArrowAlt />
           </Link>

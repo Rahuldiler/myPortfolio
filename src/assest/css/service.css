@@ -4,6 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 120px 0px 120px 0px;
+    position: relative;
+    transform: translateY(450px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.service_wrapper.active{
+  transform: translateY(0);
+  opacity: 1;
 }
 .service_card {
     padding: 40px;
@@ -37,7 +45,7 @@
     color: #fff;
 }
 @media (max-width: 991px) {
-    .service_wrapper{
+    .service_wrapper {
         padding: 60px 0px 60px 0px;
     }
 }

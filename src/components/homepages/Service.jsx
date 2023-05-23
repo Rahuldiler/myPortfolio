@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../../assest/css/service.css";
 import serviceArray from '../ArrayFiles/serviceArray';
 const Service = () =>
 {
+  const [scroll, setScroll] = useState(false)
+  useEffect(() =>
+  {
+    window.addEventListener("scroll", () =>
+    {
+      setScroll(window.scrollY > 25)
+    })
+  }, [])
+
   return (
-    <section className='service_wrapper'>
+    <section className={scroll ? "service_wrapper active" : "service_wrapper "}>
       <p className='sub_heading_title text-center'>
         OUr latest services
       </p>

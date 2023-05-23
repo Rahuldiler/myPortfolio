@@ -12,7 +12,7 @@ const BannerComp = () =>
         <>
             <div className='banner_wrapper'>
                 <Carousel indicators={false}>
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item interval={3000}>
                         <img src={banner1} alt={banner1} />
                         <div className='rotation_effect_bx'>
                             <div className='blue_rotation'></div>
@@ -43,7 +43,7 @@ const BannerComp = () =>
                         </Carousel.Caption>
 
                     </Carousel.Item>
-                    <Carousel.Item interval={3000}>
+                    <Carousel.Item interval={4000}>
                         <img src={banner2} alt={banner2} />
                         <div className='rotation_effect_bx'>
                             <div className='blue_rotation'></div>

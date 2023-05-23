@@ -4,6 +4,9 @@ import ITsolutuion from './ITsolutuion'
 import Service from './Service'
 import Counter from './Counter'
 import TeamMember from './TeamMember'
+import FAQ from './FAQ';
+import Progress from './Progress'
+import Quote from './Quote'
 
 const Home = () =>
 {
@@ -12,7 +15,10 @@ const Home = () =>
             <ITsolutuion />
             <Service />
             <Counter />
-            <TeamMember/>
+            <TeamMember />
+            <FAQ />
+            <Progress />
+            <Quote />
         </Layout>
 
     )
