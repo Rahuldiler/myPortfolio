@@ -76,6 +76,7 @@
     }
     .faq_text {
         margin-top: 100px;
+        padding-left: 0px;
     }
     .faq_section {
         background-image: none;

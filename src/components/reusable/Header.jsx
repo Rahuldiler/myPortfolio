@@ -16,7 +16,7 @@ const Header = () =>
   const [toggle, setToggle] = useState(false)
   return (
     <>
-      <section className='container header_top'>
+      <section className='container header_top py-0'>
         <div className='logo'>
           <img src={logoImg} alt={logoImg} />
         </div>
@@ -49,8 +49,9 @@ const Header = () =>
             </div>
           </div>
         </div>
+
       </section>
-      <section className='container menu_wrapper'>
+      <section className='container menu_wrapper py-0'>
         <nav className='navbar_desk'>
           <BiMenu onClick={() => setToggle(!toggle)} className='toggle_icon' />
           <ul className={!toggle ? "main_links" : "mobile_links"}>
@@ -58,10 +59,10 @@ const Header = () =>
               <img src={logoImg} alt={logoImg} />
             </div>
             <li>
-              <NavLink className="nav_item"  to="/">Home</NavLink>
+              <NavLink className="nav_item" to="/myportfolio">Home</NavLink>
             </li>
             <li>
-              <NavLink className="nav_item"  to="/team">Team</NavLink>
+              <NavLink className="nav_item" to="/team">Team</NavLink>
             </li>
             <li className='dropdown'>
               <button className="nav_item" >Services</button>
@@ -74,7 +75,7 @@ const Header = () =>
             </li>
 
             <li>
-              <NavLink className="nav_item"  to="/">Project</NavLink>
+              <NavLink className="nav_item" to="/">Project</NavLink>
             </li>
             <li className='dropdown'>
               <button className="nav_item" >Plan</button>
@@ -86,10 +87,10 @@ const Header = () =>
               </div>
             </li>
             <li>
-              <NavLink className="nav_item"  to="/">About Us</NavLink>
+              <NavLink className="nav_item" to="/aboutus">About Us</NavLink>
             </li>
             <li>
-              <NavLink className="nav_item"  to="/">Contact Us</NavLink>
+              <NavLink className="nav_item" to="/">Contact Us</NavLink>
             </li>
           </ul>
           <Link className="cta">

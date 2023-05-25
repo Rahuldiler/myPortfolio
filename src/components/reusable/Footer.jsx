@@ -2,7 +2,7 @@ import React from 'react'
 import { BiMap, BiTimeFive, BiPhoneCall } from "react-icons/bi";
 import { BsInstagram, BsTwitter, BsYoutube, BsFacebook } from "react-icons/bs";
 import "../../assest/css/footer.css";
-import logo from "../../assest/images/logomain.png"
+// import logo from "../../assest/images/logomain.png"
 import { Link } from 'react-router-dom';
 const Footer = () =>
 {
@@ -69,7 +69,7 @@ const Footer = () =>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-4 col-md-6'>
-                <img src={logo} alt={logo} />
+                {/* <img src={logo} alt={logo} /> */}
                 <h2 className='sub_heading_title2 my-0'>
                   About us
                 </h2>

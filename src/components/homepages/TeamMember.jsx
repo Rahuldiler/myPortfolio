@@ -30,7 +30,7 @@ const TeamMember = () =>
             <p className='sub_heading_title text-center'>
                 GREAT TEAM MEMBERS
             </p>
-            <h2 className='main_heading_title text-center'>
+            <h2 className='main_heading_title text-center mb-5'>
                 WE HAVE EXPERT TEAM
             </h2>
             <div className='team_leaders'>

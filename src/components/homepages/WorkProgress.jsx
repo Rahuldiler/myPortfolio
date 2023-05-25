@@ -14,7 +14,7 @@ const WorkProgress = () =>
                 Work Process
             </p>
             <h2 className='main_heading_title text-center'>
-                WE follow great process
+                WE FOLLOW GREAT PROCESS
             </h2>
             <div className='container'>
                 <div className='row'>

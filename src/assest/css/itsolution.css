@@ -27,7 +27,7 @@
 }
 
 .it_text_wrap {
-    padding: 2.6rem 0rem 2.4rem;
+    padding: 2.6rem 0rem 0rem;
     animation: rightcome2 1.6s 1 linear;
 }
 
@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 991px) {
-       .it_solution {
+    .it_solution {
         padding: 60px 0px 60px 0px;
     }
     .it_img_wrap img {
@@ -117,7 +117,15 @@
         right: 0;
         bottom: 0;
     }
+    .it_card_wrap span{
+        margin-right: 1.2rem;
+    }
     .it_v_wrap img {
         width: 200px;
+    }
+    .it_card_wrap div h2 a,
+    .it_card_wrap div h2 {
+        font-size: 14px;
+        font-family: "SemiBold" !important;
     }
 }

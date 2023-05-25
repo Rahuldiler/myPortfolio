@@ -2,6 +2,7 @@ import React from 'react';
 import { BiCopy } from 'react-icons/bi';
 import "../../assest/css/testimonial.css";
 import Carousel from '../reusable/Carousel';
+// import Carousel2 from '../reusable/Carousel2';
 const Testinomial = () =>
 {
     return (

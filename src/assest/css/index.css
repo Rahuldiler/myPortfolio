@@ -37,7 +37,7 @@
     --text-color: #1a1a1a;
     --text-color2: #184375;
     --link-coolor: #55595d;
-    --bg-color:#152B54;
+    --bg-color: #152b54;
     --button-bg-color: #184375;
     --button-color: #fff;
     --font-size-icon: 2rem;
@@ -80,20 +80,20 @@ a {
     border-color: rgb(255, 255, 255);
     border-radius: 5px;
     color: #fff !important;
-    padding: 15px 30px;
+    padding: 10px 30px;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     text-transform: uppercase;
     text-decoration: none !important;
     text-align: center;
     background-color: var(--button-bg-color);
     font-family: Medium;
     font-size: 16px;
-    line-height: 1;
+    /* line-height: 1; */
     z-index: 1;
     transition: all ease 0.4s;
     overflow: hidden;
-    height: 50px;
+    /* height: 50px; */
 }
 .blue_btn svg,
 .light_btn svg,
@@ -106,20 +106,20 @@ a {
     border-color: rgb(255, 255, 255);
     border-radius: 5px;
     color: var(--button-bg-color) !important;
-    padding: 15px 30px;
+    padding: 10px 30px;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     text-transform: uppercase;
     text-decoration: none !important;
     text-align: center;
     background-color: var(--button-color);
     font-family: Medium;
     font-size: 16px;
-    line-height: 1;
+    /* line-height: 1; */
     z-index: 1;
     overflow: hidden;
     transition: 0.25s;
-    height: 50px;
+    /* height: 50px; */
 }
 .blue_btn:hover,
 .blue_btn:focus {
@@ -139,20 +139,20 @@ a {
     border-color: rgb(255, 255, 255);
     border-radius: 5px;
     color: var(--button-bg-color) !important;
-    padding: 15px 30px;
+    padding: 10px 30px;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     text-transform: uppercase;
     text-decoration: none !important;
     text-align: center;
     background-color: var(--smoke-color);
     font-family: Medium;
     font-size: 16px;
-    line-height: 1;
+    /* line-height: 1; */
     z-index: 1;
     overflow: hidden;
     transition: 0.25s;
-    height: 50px;
+    /* height: 50px; */
 }
 .smoke_btn:hover,
 .smoke_btn:focus {
@@ -178,8 +178,8 @@ a {
     display: block;
     border-radius: 28px;
     background: var(--border-color);
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     transition: all 0.3s ease;
 }
 .cta span {
@@ -264,7 +264,7 @@ a {
 .service_title {
     color: var(--text-color);
     font-size: 22px;
-    font-family: "Bold";
+    font-family: "SemiBold";
 }
 .detail_text {
     display: block;
@@ -284,7 +284,10 @@ a {
     display: block;
     line-height: 1.63;
 }
-
+.read_more_links {
+    display: flex;
+    align-items: center;
+}
 /* GLOBAL ANIMATIONS */
 @keyframes leftcome {
     0% {
@@ -316,6 +319,39 @@ a {
     }
 }
 
+.breadcrumb_wrapper {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../assest/images/breadcumbbg.jpg");
+    background-size: cover;
+    padding: 120px 0px 120px 0px;
+}
+
+.breadcrumb_wrapper h2 {
+    font-family: ExoSemiBold;
+    color: var(--button-color);
+    background-size: inherit;
+    background-position: inherit;
+    font-size: 45.2211px;
+    margin: 1rem 0;
+    line-height: 70px;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border-width: 0px;
+    filter: none;
+    animation: rightcome 1.6s 1 linear;
+}
+
+.breadcrumb-item.active ,
+.breadcrumb-item a {
+    white-space: normal;
+    color: #fff !important;
+    font-size: 16px;
+    font-family: Medium;
+    text-decoration: none;
+}
 @media (max-width: 1200px) {
     .main_heading_title,
     .main_heading_title2 {
@@ -327,8 +363,7 @@ a {
 @media (max-width: 767px) {
     .blue_btn,
     .light_btn {
-        padding: 12px 15px;
-        height: 40px;
+        padding: 10px 15px;
     }
 
     .cta {
@@ -376,11 +411,30 @@ a {
     }
     .detail_text {
         text-align: justify;
+        font-size: 14px;
     }
     .detail_text2 {
         text-align: justify;
     }
     section {
-        padding: 60px 0px 60px 0px !important;
+        padding: 60px 0px 60px 0px;
+    }
+}
+@media (max-width: 567px) {
+    .service_title {
+        font-size: 18px;
+    }
+}
+@media (max-width: 467px) {
+    .blue_btn,
+    .light_btn,
+    .smoke_btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .blue_btn svg,
+    .light_btn svg,
+    .smoke_btn svg {
+        font-size: 16px;
     }
 }

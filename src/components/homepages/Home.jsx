@@ -9,11 +9,13 @@ import Progress from './Progress'
 import Quote from './Quote'
 import WorkProgress from './WorkProgress'
 import Testinomial from './Testinomial'
+import BannerComp from '../reusable/BannerComp'
 
 const Home = () =>
 {
     return (
         <Layout>
+            <BannerComp />
             <ITsolutuion />
             <Service />
             <Counter />

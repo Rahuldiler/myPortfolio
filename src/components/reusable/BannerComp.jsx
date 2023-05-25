@@ -33,7 +33,7 @@ const BannerComp = () =>
                                         <Link className='blue_btn' to="/aboutus">
                                             About Us <BiRightArrowAlt />
                                         </Link>
-                                        <Link className='light_btn' to="/">
+                                        <Link className='light_btn' to="/blog">
                                             Read More <BiRightArrowAlt />
                                         </Link>
                                     </div>
@@ -61,10 +61,10 @@ const BannerComp = () =>
                                         PROFESSINAL ENGINEERS
                                     </h2>
                                     <div className='read_more_links'>
-                                        <Link className='blue_btn' to="/">
+                                        <Link className='blue_btn' to="/aboutus">
                                             About Us <BiRightArrowAlt />
                                         </Link>
-                                        <Link className='light_btn' to="/">
+                                        <Link className='light_btn' to="/blog">
                                             Read More <BiRightArrowAlt />
                                         </Link>
                                     </div>
@@ -91,10 +91,10 @@ const BannerComp = () =>
                                         SUPPORT & MANAGEMNT
                                     </h2>
                                     <div className='read_more_links'>
-                                        <Link className='blue_btn' to="/">
+                                        <Link className='blue_btn' to="/aboutus">
                                             About Us <BiRightArrowAlt />
                                         </Link>
-                                        <Link className='light_btn' to="/">
+                                        <Link className='light_btn' to="/blog">
                                             Read More <BiRightArrowAlt />
                                         </Link>
                                     </div>
