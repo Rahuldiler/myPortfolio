@@ -57,7 +57,7 @@
     justify-content: center;
 }
 .navbar_desk {
-    padding: 0;
+    padding: 0px 0px 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;

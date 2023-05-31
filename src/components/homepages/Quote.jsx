@@ -14,7 +14,7 @@ const Quote = () =>
                         NEED A CONSULTATION?
                     </h2>
                 </div>
-                <Link className='blue_btn' to="/">
+                <Link className='blue_btn' to="/contact">
                     Get quote <BiRightArrowAlt />
                 </Link>
             </div>

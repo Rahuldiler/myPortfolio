@@ -90,10 +90,10 @@ const Header = () =>
               <NavLink className="nav_item" to="/aboutus">About Us</NavLink>
             </li>
             <li>
-              <NavLink className="nav_item" to="/">Contact Us</NavLink>
+              <NavLink className="nav_item" to="/contact">Contact Us</NavLink>
             </li>
           </ul>
-          <Link className="cta">
+          <Link className="cta" to="/contact">
             <span>Get In Touch</span>
             <BiRightArrowAlt />
           </Link>

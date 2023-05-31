@@ -61,8 +61,6 @@ const Progress = () =>
                                 </div>
                                 <ProgressBar now={innovation} />
                             </div>
-
-
                         </div>
                     </div>
                     <div className='col-lg-6'>

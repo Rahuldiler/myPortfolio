@@ -35,13 +35,13 @@ const ServiceCard = () =>
     return (
         <section className='service_card_wrapper'>
             <div className='container'>
-                <div className='row'>
+                <div className='row gy-3'>
                     {
                         serviceArray.map((index, id) =>
                         {
                             return (
                                 <>
-                                    <div className='col-lg-4 col-md-6  service_card_b_e'>
+                                    <div className='col-lg-4 col-md-6 service_card_b_e' key={id}>
                                         <div className='service_card'>
                                             <div className="service-top">
                                                 <span className='head_img'>

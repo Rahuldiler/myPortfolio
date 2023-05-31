@@ -5,6 +5,9 @@ import Breadcrumb from '../reusable/Breadcrumb';
 import ServiceCard from './ServiceCard';
 import TechNeeds from './TechNeeds';
 import TeamMember from '../homepages/TeamMember';
+import Reviews from '../reusable/Reviews';
+import Quote from '../homepages/Quote';
+import BlogCard from '../blogpages/BlogCard';
 const AboutMore = () =>
 {
     return (
@@ -13,6 +16,9 @@ const AboutMore = () =>
             <ServiceCard />
             <TechNeeds />
             <TeamMember />
+            <Reviews />
+            <Quote />
+            <BlogCard />
         </Layout>
     )
 }

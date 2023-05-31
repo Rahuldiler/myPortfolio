@@ -82,7 +82,7 @@
     padding: 0px 30px 0px 0px;
 }
 .founder_bx {
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 10px;
 }
 .founder_bx p {
     font-size: 14px;
@@ -100,7 +100,7 @@
     border-radius: 50%;
 }
 .query_cont span svg {
-    font-size: var(--font-size-icon);
+    font-size: 20px;
     margin: 10px;
 }
 .call_nm {
@@ -121,10 +121,41 @@
     margin: 10px 0px;
     text-decoration: none;
 }
-
+@media (max-width: 1200px) {
+    .founder_bx {
+        padding: 20px 0px 0px 0px;
+    }
+    .query_cont {
+        padding: 0px 20px 0px 0px;
+    }
+}
 @media (max-width: 991px) {
     .tech_need_wrap,
     .service_card_wrapper {
         padding: 60px 0;
+    }
+}
+@media (max-width: 767px) {
+    .service_card .detail_text {
+        text-align: left;
+    }
+    .call_nm a {
+        font-size: 16px;
+    }
+    .query_cont {
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        border-right: 0px;
+    }
+    .query_cont .call_nm{
+        border-left: 2px solid var(--text-color2);
+        border-radius: 0%;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+ 
+    .founder_bx h2 {
+        font-size: 18px;
     }
 }

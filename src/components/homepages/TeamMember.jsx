@@ -30,13 +30,13 @@ const TeamMember = () =>
             <p className='sub_heading_title text-center'>
                 GREAT TEAM MEMBERS
             </p>
-            <h2 className='main_heading_title text-center mb-5'>
+            <h2 className='main_heading_title text-center mb-2 mb-md-5'>
                 WE HAVE EXPERT TEAM
             </h2>
             <div className='team_leaders'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-lg-3'>
+                    <div className='row gy-3'>
+                        <div className='col-lg-3 col-sm-6'>
                             <div className='team_style_card'>
                                 <div className='img_wrap'>
                                     <img src={pankaj} alt={pankaj} />
@@ -58,13 +58,13 @@ const TeamMember = () =>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className='service_title text-center my-3'>
+                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
                                     Pankaj Yadav
                                 </h3>
-                                <p className='detail_text2 text-center mb-3'>Sr. MERN Developer</p>
+                                <p className='detail_text2 text-center mb-2 mb-md-5 mt-0'>Sr. MERN Developer</p>
                             </div>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-sm-6'>
                             <div className='team_style_card'>
                                 <div className='img_wrap'>
                                     <img src={suhail} alt={suhail} />
@@ -86,13 +86,13 @@ const TeamMember = () =>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className='service_title text-center my-3'>
+                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
                                     Suhail Sidduiqi
                                 </h3>
-                                <p className='detail_text2 text-center mb-3'>Web Designer</p>
+                                <p className='detail_text2 text-center mb-2 mb-md-5'>Web Designer</p>
                             </div>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-sm-6'>
                             <div className='team_style_card'>
                                 <div className='img_wrap'>
                                     <img src={pankaj} alt={pankaj} />
@@ -114,13 +114,13 @@ const TeamMember = () =>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className='service_title text-center my-3'>
+                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
                                     Pankaj Yadav
                                 </h3>
-                                <p className='detail_text2 text-center mb-3'>Sr. MERN Developer</p>
+                                <p className='detail_text2 text-center mb-2 mb-md-5'>Sr. MERN Developer</p>
                             </div>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-sm-6'>
                             <div className='team_style_card'>
                                 <div className='img_wrap'>
                                     <img src={suhail} alt={suhail} />
@@ -142,17 +142,17 @@ const TeamMember = () =>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className='service_title text-center my-3'>
+                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
                                     Suhail Sidduiqi
                                 </h3>
-                                <p className='detail_text2 text-center mb-3'>Web Designer</p>
+                                <p className='detail_text2 text-center mb-2 mb-md-5'>Web Designer</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
     )
 }
 

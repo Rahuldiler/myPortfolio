@@ -1,6 +1,5 @@
 import React from 'react'
 import { BiCopy, BiPhoneCall } from 'react-icons/bi';
-// import { Link } from 'react-router-dom';
 import aboutcnt from "../../assest/images/aboutuscnt.jpg"
 const TechNeeds = () =>
 {
@@ -21,8 +20,8 @@ const TechNeeds = () =>
               Authoritatively grow goal is oriented markets through ompletely generate
               technically sound content without robust users.
             </p>
-            <div className='row my-5'>
-              <div className='col-sm-6'>
+            <div className='row my-2 my-lg-4'>
+              <div className='col-lg-7'>
                 <div className='query_cont'>
                   <span>
                     <BiPhoneCall />
@@ -35,7 +34,7 @@ const TechNeeds = () =>
                   </span>
                 </div>
               </div>
-              <div className='col-sm-6'>
+              <div className='col-lg-5'>
                 <div className='founder_bx'>
                   <span>
                     <p>Founder & CEO</p>
