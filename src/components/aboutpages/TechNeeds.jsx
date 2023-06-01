@@ -21,23 +21,23 @@ const TechNeeds = () =>
               technically sound content without robust users.
             </p>
             <div className='row my-2 my-lg-4'>
-              <div className='col-lg-7'>
+              <div className='col-lg-7 order_box'>
                 <div className='query_cont'>
                   <span>
                     <BiPhoneCall />
                   </span>
-                  <span className='call_nm'>
-                    <p>Call To ask Any Query</p>
+                  <span className='call_nm ms-2'>
+                    <p className='detail_text mb-1'>Call To ask Any Query</p>
                     <a href="tel:+91 8607013464">
                       +91 8607013464
                     </a>
                   </span>
                 </div>
               </div>
-              <div className='col-lg-5'>
+              <div className='col-lg-5 order_box1'>
                 <div className='founder_bx'>
                   <span>
-                    <p>Founder & CEO</p>
+                    <p className='detail_text'>Founder & CEO</p>
                     <h2>Rahul Yadav</h2>
                   </span>
                 </div>

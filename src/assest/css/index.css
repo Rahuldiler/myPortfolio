@@ -175,7 +175,7 @@ a {
     content: "";
     position: absolute;
     top: -1px;
-    left: 0;
+    left: -10px;
     display: block;
     border-radius: 28px;
     background: var(--border-color);
@@ -466,6 +466,9 @@ a {
     }
 }
 @media (max-width: 567px) {
+    br{
+        display: none;
+    }
     .blue_btn,
     .light_btn,
     .smoke_btn {
