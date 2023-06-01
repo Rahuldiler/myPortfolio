@@ -32,10 +32,10 @@
     font-size: var(--font-size-icon);
 }
 .contact_dt_card a {
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 600;
+    font-size: 16px;
     color: var(--text-color);
+    text-decoration: none;
+    font-family: "ExoSemiBold";
 }
 .contact_dt_card p {
     font-size: 14px;

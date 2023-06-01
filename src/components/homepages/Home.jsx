@@ -1,15 +1,14 @@
-import React from 'react'
-import Layout from '../reusable/Layout'
-import ITsolutuion from './ITsolutuion'
-import Service from './Service';
+import React from 'react';
+import Layout from '../reusable/Layout';
+import ITsolutuion from './ITsolutuion';
 import Counter from './Counter';
 import TeamMember from './TeamMember';
 import FAQ from './FAQ';
 import Progress from './Progress';
 import Quote from './Quote';
 import WorkProgress from './WorkProgress';
-// import Testinomial from './Testinomial'
-import BannerComp from '../reusable/BannerComp'
+import BannerComp from '../reusable/BannerComp';
+import ServiceCard from '../servicePages/ServiceCard';
 
 const Home = () =>
 {
@@ -17,14 +16,13 @@ const Home = () =>
         <Layout>
             <BannerComp />
             <ITsolutuion />
-            <Service />
+            <ServiceCard/>
             <Counter />
             <TeamMember />
             <FAQ />
             <Progress />
             <Quote />
             <WorkProgress />
-            {/* <Testinomial /> */}
         </Layout>
 
     )

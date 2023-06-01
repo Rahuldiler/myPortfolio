@@ -5,7 +5,9 @@ import AboutMore from '../components/aboutpages/AboutMore'
 import Team from '../components/teampages/Team'
 import TeamCard from '../components/teampages/TeamCard'
 import GetTouch from '../components/reusable/GetTouch'
-const HomeRoutes = () => {
+import Service from '../components/servicePages/Service'
+const HomeRoutes = () =>
+{
   return (
     <Routes>
       <Route exact path="/myportfolio" element={<Home />} />
@@ -13,6 +15,7 @@ const HomeRoutes = () => {
       <Route exact path="/team" element={<Team />} />
       <Route exact path="/team-detail/:id" element={<TeamCard />} />
       <Route exact path="/contact" element={<GetTouch />} />
+      <Route exact path="/service" element={<Service />} />
     </Routes>
   )
 }

@@ -64,27 +64,15 @@ const Header = () =>
             <li>
               <NavLink className="nav_item" to="/team">Team</NavLink>
             </li>
-            <li className='dropdown'>
-              <button className="nav_item" >Services</button>
-              <div className="dropdown-content">
-                <NavLink to="/project/details" >Website Design</NavLink>
-                <NavLink to="/project/details" >Digital Marketing</NavLink>
-                <NavLink to="/project/details" >Affilate  Marketing</NavLink>
-                <NavLink to="/project/details" >SEO Optimization</NavLink>
-              </div>
+            <li>
+              <NavLink className="nav_item" to="/service">Services</NavLink>
             </li>
 
             <li>
-              <NavLink className="nav_item" to="/">Project</NavLink>
+              <NavLink className="nav_item" to="/project">Project</NavLink>
             </li>
-            <li className='dropdown'>
-              <button className="nav_item" >Plan</button>
-              <div className="dropdown-content">
-                <NavLink to="/project/details" >Website Design Plan</NavLink>
-                <NavLink to="/project/details" >Digital Marketing Plan</NavLink>
-                <NavLink to="/project/details" >Affilate  Marketing Plan</NavLink>
-                <NavLink to="/project/details" >SEO Optimization Plan</NavLink>
-              </div>
+            <li>
+              <NavLink className="nav_item" to="/plan">Plan</NavLink>
             </li>
             <li>
               <NavLink className="nav_item" to="/aboutus">About Us</NavLink>

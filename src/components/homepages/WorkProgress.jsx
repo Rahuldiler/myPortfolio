@@ -32,7 +32,7 @@ const WorkProgress = () =>
                             <h2 className='service_title '>
                                 Medicine Help
                             </h2>
-                            <p className='detail_text2'>
+                            <p className='paragraph text-justify'>
                                 Extensible for web iterate process before meta services impact with olisticly enable client.
                             </p>
                         </div>
@@ -54,7 +54,7 @@ const WorkProgress = () =>
                             <h2 className='service_title '>
                                 We Build and Create
                             </h2>
-                            <p className='detail_text2'>
+                            <p className='paragraph text-justify'>
                                 Extensible for web iterate process before meta services impact with olisticly enable client.
                             </p>
                         </div>
@@ -76,7 +76,7 @@ const WorkProgress = () =>
                             <h2 className='service_title '>
                                 Water Delivery
                             </h2>
-                            <p className='detail_text2'>
+                            <p className='paragraph text-justify'>
                                 Extensible for web iterate process before meta services impact with olisticly enable client.
                             </p>
                         </div>
@@ -98,7 +98,7 @@ const WorkProgress = () =>
                             <h2 className='service_title '>
                                 We Care About
                             </h2>
-                            <p className='detail_text2'>
+                            <p className='paragraph text-justify'>
                                 Extensible for web iterate process before meta services impact with olisticly enable client.
                             </p>
                         </div>

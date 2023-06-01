@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../reusable/Layout'
 import "../../assest/css/aboutcss/aboutmore.css";
 import Breadcrumb from '../reusable/Breadcrumb';
-import ServiceCard from './ServiceCard';
+import AboutServiceCard from './AboutServiceCard';
 import TechNeeds from './TechNeeds';
 import TeamMember from '../homepages/TeamMember';
 import Reviews from '../reusable/Reviews';
@@ -13,7 +13,7 @@ const AboutMore = () =>
     return (
         <Layout>
             <Breadcrumb pageHeader="About Us" />
-            <ServiceCard />
+            <AboutServiceCard />
             <TechNeeds />
             <TeamMember />
             <Reviews />

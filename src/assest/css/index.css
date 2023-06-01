@@ -266,7 +266,7 @@ a {
 .service_title {
     color: var(--text-color);
     font-size: 28px;
-    font-family: "SemiBold";
+    font-family: "ExoSemiBold";
 }
 .detail_text {
     display: block;
