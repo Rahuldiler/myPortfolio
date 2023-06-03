@@ -39,10 +39,10 @@ const GetTouch = () =>
                                                 Our Office Address
                                             </h3>
                                             <p className='paragraph mb-0'>
-                                                258 Dancing Street, Miland Line,
+                                                898,3rd floor, Vivekananda Block
                                             </p>
                                             <p className='paragraph mb-0'>
-                                                HUYI 21563, NewYork
+                                                Sarawati Vihar,Gurugram
                                             </p>
                                         </span>
                                     </li>

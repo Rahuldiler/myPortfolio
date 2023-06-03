@@ -168,7 +168,7 @@ a {
     text-decoration: none;
     color: var(--button-bg-color);
     font-family: "Medium";
-    padding: 12px 0px;
+    padding: 10px  0px;
     transition: all 0.2s ease;
 }
 .cta:before {
@@ -203,7 +203,7 @@ a {
 }
 .cta:hover {
     color: #fff;
-    padding: 12px 3px;
+    padding: 10px;
 }
 .cta:hover:before {
     width: 100%;

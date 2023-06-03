@@ -22,7 +22,7 @@ const Footer = () =>
                       OFFICE ADDRESS
                     </h2>
                     <p>
-                      898,3rd florr, Vivekananda block,Gurugram
+                      898,3rd floor, Vivekananda Block,Sarawati Vihar,Gurugram
                     </p>
                   </div>
                 </div>

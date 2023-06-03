@@ -31,6 +31,9 @@ const ContactForm = ({ title, heading, paragraph }) =>
             .then((result) =>
             {
                 console.log(result.text);
+                setData("");
+                alert("Query submitted succesfully");
+
             })
             .catch((error) =>
             {
@@ -76,7 +79,7 @@ const ContactForm = ({ title, heading, paragraph }) =>
 
                     </div>
                 </div>
-                <div className='d-flex submt_btn_div justify-content-center'>
+                <div className='d-flex submt_btn_div justify-content-center mt-4'>
                     <button className="blue_btn" type='submit'>
                         Send A Message <BiRightArrowAlt />
                     </button>
