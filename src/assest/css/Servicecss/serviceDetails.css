@@ -1,0 +1,34 @@
+.service_detai_page {
+    padding: 120px 0px;
+    background-color: #fff;
+}
+.it_slt_bsns_t_sec h2 {
+    margin: 2rem 0rem 1.6rem;
+}
+.it_slt_bsns_t_sec img {
+    width: 100%;
+}
+.it_slt_bsns_t_sec p {
+    margin-bottom: 2rem;
+}
+.it_slt_bsns_md_sec {
+    display: flex;
+    background: var(--border-color);
+}
+.it_slt_bsns_md_sec ul {
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.it_slt_bsns_lt_sec {
+    padding: 2rem 0rem;
+}
+.it_slt_bsns_lt_sec img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .service_detai_page {
+        padding: 60px 0px;
+    }
+}

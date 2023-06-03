@@ -4,15 +4,6 @@ import "../../assest/css/service.css";
 import serviceArray from '../ArrayFiles/serviceArray';
 const ServiceCard = () =>
 {
-    // const [scroll, setScroll] = useState(false)
-    // useEffect(() =>
-    // {
-    //     window.addEventListener("scroll", () =>
-    //     {
-    //         setScroll(window.scrollY > 25)
-    //     })
-    // }, [])
-
     return (
         <section className="service_wrapper">
             <p className='sub_heading_title text-center'>
@@ -39,7 +30,7 @@ const ServiceCard = () =>
                                             <p className='detail_text'>
                                                 {index.detail}
                                             </p>
-                                            <Link className='smoke_btn' to={`${index.link}/${index.id}`}>Read More</Link>
+                                            <Link className='smoke_btn' to={`/servicedetails/${index.id}`}>Read More</Link>
                                         </div>
                                     </div>
                                 </>

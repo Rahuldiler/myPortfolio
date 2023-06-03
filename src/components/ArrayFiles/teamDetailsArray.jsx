@@ -21,7 +21,7 @@ const TeamDetailsArray = [
     {
         id: 2,
         name: "Sammy Singh",
-        image: teammem2,
+        image: teammem3,
         degination: "Chief Expert",
         detailExp: "Continually utilize 24/365 bandwidth before real-time interfaces. Credibly grow team driven core competencies with pandemic e-commerce. Objectively initiate pandemic users with inexpensive methodologies. Collaboratively deliver bricks-and-clicks meta-services for bricks-and-clicks innovation streamline front-end experiences.",
         experience: "More Then 12 Years",
@@ -34,7 +34,7 @@ const TeamDetailsArray = [
     {
         id: 3,
         name: "Sunil Gupta",
-        image: teammem3,
+        image: teammem4,
         degination: "HR Manager",
         detailExp: "Experienced HR manager with a proven track record in developing and implementing HR strategies to support organizational goals. With 4 years of experience in human resources, I possess a strong understanding of HR best practices, employment laws, and talent management.",
         experience: "More Then 4 Years",
@@ -46,7 +46,7 @@ const TeamDetailsArray = [
     {
         id: 4,
         name: "Jhon Walker",
-        image: teammem4,
+        image: teammem2,
         degination: "Sr. Digital Maketing Executive",
         detailExp: "Results-driven digital marketing executive with a passion for driving online growth and maximizing brand exposure. With 9 years of experience in the field, I possess a strong knowledge of digital marketing strategies, tools, and techniques.",
         experience: "More Then 9 Years",

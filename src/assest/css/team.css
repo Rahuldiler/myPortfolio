@@ -10,6 +10,9 @@
     transform: translateY(0);
     opacity: 1;
 }
+.team_leaders a {
+    text-decoration: none;
+}
 .team_style_card {
     border-radius: 5px;
     overflow: hidden;
@@ -25,11 +28,12 @@
 }
 .team_style_card .img_wrap img {
     width: 100%;
+    height: 300px;
 }
 .img_wrap .social {
     z-index: -2;
     position: absolute;
-    bottom: 40px;
+    bottom: 15px;
     width: 100%;
     display: flex;
     justify-content: center;

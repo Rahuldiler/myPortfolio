@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "../../assest/css/team.css";
-import pankaj from "../../assest/images/teammem1.jpg";
-import suhail from "../../assest/images/teammem2.jpeg";
 import
 {
     BsFacebook,
@@ -10,6 +8,8 @@ import
     BsLinkedin
 } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import NewCarousel from '../reusable/NewCarousel';
+import TeamDetailsArray from '../ArrayFiles/teamDetailsArray';
 const TeamMember = () =>
 {
     const [scroll, setScroll] = useState(false);
@@ -35,120 +35,48 @@ const TeamMember = () =>
             </h2>
             <div className='team_leaders'>
                 <div className='container'>
-                    <div className='row gy-3'>
-                        <div className='col-lg-3 col-sm-6'>
-                            <div className='team_style_card'>
-                                <div className='img_wrap'>
-                                    <img src={pankaj} alt={pankaj} />
-                                    <div className='social'>
-                                        <div>
-                                            <Link to="/">
-                                                <BsFacebook />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsInstagram />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsTwitter />
-                                            </Link>
-                                            <Link to="/">
+                    <NewCarousel show={3}>
+                        {
+                            TeamDetailsArray.map((index, id) =>
+                            {
+                                return (
+                                    <>
+                                        <div className='content_carousel' key={id}>
+                                            <Link to={`/team-detail/${id + 1}`}>
+                                                <div className='team_style_card card'>
+                                                    <div className='img_wrap'>
+                                                        <img src={index.image} alt={index.image} />
+                                                        <div className='social'>
+                                                            <div>
+                                                                <p className='mb-0' to="/">
+                                                                    <BsFacebook />
+                                                                </p>
+                                                                <p className='mb-0' to="/">
+                                                                    <BsInstagram />
+                                                                </p>
+                                                                <p className='mb-0' to="/">
+                                                                    <BsTwitter />
+                                                                </p>
+                                                                <p className='mb-0' to="/">
 
-                                                <BsLinkedin />
+                                                                    <BsLinkedin />
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
+                                                        {index.name}
+                                                    </h3>
+                                                    <p className='detail_text2 text-center mb-2 mb-md-5 mt-0'>{index.degination}</p>
+                                                </div>
                                             </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
-                                    Pankaj Yadav
-                                </h3>
-                                <p className='detail_text2 text-center mb-2 mb-md-5 mt-0'>Sr. MERN Developer</p>
-                            </div>
-                        </div>
-                        <div className='col-lg-3 col-sm-6'>
-                            <div className='team_style_card'>
-                                <div className='img_wrap'>
-                                    <img src={suhail} alt={suhail} />
-                                    <div className='social'>
-                                        <div>
-                                            <Link to="/">
-                                                <BsFacebook />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsInstagram />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsTwitter />
-                                            </Link>
-                                            <Link to="/">
 
-                                                <BsLinkedin />
-                                            </Link>
                                         </div>
-                                    </div>
-                                </div>
-                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
-                                    Suhail Sidduiqi
-                                </h3>
-                                <p className='detail_text2 text-center mb-2 mb-md-5'>Web Designer</p>
-                            </div>
-                        </div>
-                        <div className='col-lg-3 col-sm-6'>
-                            <div className='team_style_card'>
-                                <div className='img_wrap'>
-                                    <img src={pankaj} alt={pankaj} />
-                                    <div className='social'>
-                                        <div>
-                                            <Link to="/">
-                                                <BsFacebook />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsInstagram />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsTwitter />
-                                            </Link>
-                                            <Link to="/">
-
-                                                <BsLinkedin />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
-                                    Pankaj Yadav
-                                </h3>
-                                <p className='detail_text2 text-center mb-2 mb-md-5'>Sr. MERN Developer</p>
-                            </div>
-                        </div>
-                        <div className='col-lg-3 col-sm-6'>
-                            <div className='team_style_card'>
-                                <div className='img_wrap'>
-                                    <img src={suhail} alt={suhail} />
-                                    <div className='social'>
-                                        <div>
-                                            <Link to="/">
-                                                <BsFacebook />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsInstagram />
-                                            </Link>
-                                            <Link to="/">
-                                                <BsTwitter />
-                                            </Link>
-                                            <Link to="/">
-
-                                                <BsLinkedin />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h3 className='service_title text-center mt-2 mt-md-5 mb-2'>
-                                    Suhail Sidduiqi
-                                </h3>
-                                <p className='detail_text2 text-center mb-2 mb-md-5'>Web Designer</p>
-                            </div>
-                        </div>
-                    </div>
+                                    </>
+                                )
+                            })
+                        }
+                    </NewCarousel>
                 </div>
             </div>
         </section>
