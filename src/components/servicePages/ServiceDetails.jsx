@@ -5,11 +5,13 @@ import "../../assest/css/Servicecss/serviceDetails.css";
 import service1 from "../../assest/images/servicedet1.jpg";
 import service12 from "../../assest/images/servicedet2.jpg";
 import service13 from "../../assest/images/servicedet4.jpg";
-import service14 from "../../assest/images/servicedet3.jpg";
-import { BiCheckCircle } from "react-icons/bi";
+import { BiCheckCircle, BiAlarm, BiRightArrowAlt } from "react-icons/bi";
 import { Accordion } from 'react-bootstrap';
+import serviceArray from '../ArrayFiles/serviceArray';
+import { Link, NavLink, useParams } from 'react-router-dom';
 const ServiceDetails = () =>
 {
+    const userId = useParams();
     return (
         <>
             <Layout>
@@ -17,94 +19,106 @@ const ServiceDetails = () =>
                 <section className='service_detai_page'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-lg-4'>
+                                <ul className='lt_list_cntnt'>
+                                    <h2 className='service_title'>All Services</h2>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/1">Cloud solutions</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/2">UI/UX Designing</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/3">Digital Marketing</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/4">web development</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/5">Software Services</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="detail_text" to="/servicedetails/6">Machine Learning</NavLink>
+                                    </li>
+                                </ul>
+                                <ul className='lt_list_cntnt time_cnt'>
+                                    <h2 className='service_title'>Working Hours</h2>
+                                    <li>
+                                        <BiAlarm /> <p className='detail_text'>Mon – Fri 1.00 – 2:00 pm</p>
+                                    </li>
+                                    <li>
+                                        <BiAlarm /> <p className='detail_text'>Saturday 8.00 – 12:00 pm</p>
+                                    </li>
+                                    <li>
+                                        <BiAlarm /> <span className='detail_text'>Sunday closed</span>
+                                    </li>
+                                </ul>
+                                <div className='qry_cnt'>
+                                    <div>
+                                        <h2 className='main_heading_title'>Have Any Query?</h2>
+                                        <Link className='blue_btn' to="/contact">
+                                            Get quote <BiRightArrowAlt />
+                                        </Link>
+                                    </div>
+                                </div>
 
                             </div>
-                            <div className='col-md-8'>
-                                <div className='it_slt_bsns_t_sec'>
-                                    <img src={service1} alt={service1} />
-                                    <h2 className='service_title'>Cloud Solution & Business</h2>
-                                    <p>
-                                        Welcome to our Cloud Services! We offer comprehensive cloud solutions to help
-                                        businesses harness the power of cloud computing and optimize their operations.
-                                        Our team of cloud experts is committed to delivering secure, scalable, and
-                                        reliable cloud services.
-                                    </p>
-                                </div>
-                                <div className='it_slt_bsns_md_sec'>
-                                    <img src={service13} alt={service13} />
-                                    <ul>
-                                        <h3 className='sub_heading_title'>Here's what our service includes :</h3>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Infrastructure Setup.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Migration.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Security.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Application Development.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Consulting and Strategy.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className='detail_text'>
-                                                <BiCheckCircle /> Cloud Monitoring and Optimization.
-                                            </p>
-                                        </li>
-                                    </ul>
+                            <div className='col-lg-8'>
+                                {
+                                    serviceArray.filter(item => item.id === parseInt(userId.id)).map((index) =>
+                                    {
+                                        return (
+                                            <>
+                                                <div className='it_slt_bsns_t_sec'>
+                                                    <img src={service1} alt={service1} />
+                                                    <h2 className='service_title'>{index.head}</h2>
+                                                    <p>
+                                                        {index.hdpara}
+                                                    </p>
+                                                </div>
+                                                <div className='it_slt_bsns_md_sec'>
+                                                    <img src={service13} alt={service13} />
+                                                    <ul>
+                                                        <h3 className='sub_heading_title'>{index.incldet} :</h3>
+                                                        {
+                                                            index?.servincld?.map((e, id) =>
+                                                            {
+                                                                return (
 
-                                </div>
-                                <div className='it_slt_bsns_lt_sec'>
-                                    <img src={service12} alt={service12} />
-                                    <h2 className='service_title'>FAQ's about cloud service</h2>
-                                    <Accordion defaultActiveKey="0">
-                                        <Accordion.Item eventKey="0" open>
-                                            <Accordion.Header className='service_title'>Do You Provide Cloud Monitoring and Optimization.</Accordion.Header>
-                                            <Accordion.Body>
-                                                We provide ongoing monitoring and optimization of your cloud infrastructure
-                                                to ensure optimal performance, cost-efficiency, and resource utilization.
-                                                Our team continuously monitors key metrics, identifies potential bottlenecks
-                                                or performance issues, and implements necessary optimizations to enhance
-                                                your cloud environment.
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-                                        <Accordion.Item eventKey="1">
-                                            <Accordion.Header className='service_title'>Does Your Expert Cloud Consulting and Strategy</Accordion.Header>
-                                            <Accordion.Body>
-                                                Our experts offer cloud consulting services to help you make informed decisions about
-                                                adopting cloud technologies. We assist in defining cloud strategies, selecting the right
-                                                cloud service providers, and developing roadmaps
-                                                for successful cloud adoption and integration into your existing IT infrastructure.
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-                                        {/* <Accordion.Item eventKey="2">
-                                            <Accordion.Header className='service_title'>Creation timelines for the standard lorem passage.</Accordion.Header>
-                                            <Accordion.Body>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                                culpa qui officia deserunt mollit anim id est laborum.
-                                            </Accordion.Body>
-                                        </Accordion.Item> */}
-                                    </Accordion>
-                                </div>
+                                                                    <li key={id}>
+                                                                        <p className='detail_text'>
+                                                                            <BiCheckCircle /> {e.ser}
+                                                                        </p>
+                                                                    </li>
+                                                                )
+                                                            })
+                                                        }
+                                                    </ul>
+                                                </div>
+                                                <div className='it_slt_bsns_lt_sec'>
+                                                    <img src={service12} alt={service12} />
+                                                    <h2 className='service_title head'>{index.faqsHead}</h2>
+                                                    <Accordion defaultActiveKey="0">
+                                                        {
+                                                            index.faqs?.map((i, id) =>
+                                                            {
+                                                                return (
+                                                                    <Accordion.Item eventKey={id}>
+                                                                        <Accordion.Header className='service_title'>{i.que}</Accordion.Header>
+                                                                        <Accordion.Body>
+                                                                            {i.ans}
+                                                                        </Accordion.Body>
+                                                                    </Accordion.Item>
+                                                                )
+                                                            })
+                                                        }
+                                                    </Accordion>
+                                                </div>
+                                            </>
+                                        )
+                                    })
+                                }
+
                             </div>
                         </div>
                     </div>
