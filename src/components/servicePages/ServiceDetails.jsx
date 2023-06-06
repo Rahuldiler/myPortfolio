@@ -106,7 +106,10 @@ const ServiceDetails = () =>
                                                                     <Accordion.Item eventKey={id}>
                                                                         <Accordion.Header className='service_title'>{i.que}</Accordion.Header>
                                                                         <Accordion.Body>
-                                                                            {i.ans}
+                                                                            <p>
+                                                                                {i.ans}
+                                                                            </p>
+
                                                                         </Accordion.Body>
                                                                     </Accordion.Item>
                                                                 )
