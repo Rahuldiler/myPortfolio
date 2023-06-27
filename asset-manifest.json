@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/toponsearch/static/css/main.41ecdf2f.css",
-    "main.js": "/toponsearch/static/js/main.d8fda3f8.js",
+    "main.js": "/toponsearch/static/js/main.38d743b8.js",
     "static/media/banner2.jpg": "/toponsearch/static/media/banner2.0a94da03bf341b4591d8.jpg",
     "static/media/banner1.jpg": "/toponsearch/static/media/banner1.47d6c4c10fce47287d1b.jpg",
     "static/media/banner3.jpg": "/toponsearch/static/media/banner3.352be7c39aef743df571.jpg",
@@ -59,10 +59,10 @@
     "static/media/count1.svg": "/toponsearch/static/media/count1.7ca3494a5f4143f33e9bb7e37e8addcd.svg",
     "index.html": "/toponsearch/index.html",
     "main.41ecdf2f.css.map": "/toponsearch/static/css/main.41ecdf2f.css.map",
-    "main.d8fda3f8.js.map": "/toponsearch/static/js/main.d8fda3f8.js.map"
+    "main.38d743b8.js.map": "/toponsearch/static/js/main.38d743b8.js.map"
   },
   "entrypoints": [
     "static/css/main.41ecdf2f.css",
-    "static/js/main.d8fda3f8.js"
+    "static/js/main.38d743b8.js"
   ]
 }
