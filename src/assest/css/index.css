@@ -404,6 +404,9 @@ a {
 }
 
 @media (max-width: 767px) {
+    svg{
+        font-size: 16px !important;
+    }
     .blue_btn,
     .light_btn {
         padding: 10px 15px;

@@ -117,8 +117,13 @@
         right: 0;
         bottom: 0;
     }
-    .it_card_wrap span{
+    .it_card_wrap span {
+        width: 40px;
+        height: 40px;
         margin-right: 1.2rem;
+    }
+    .it_card_wrap div p {
+        margin-bottom: 0px !important;
     }
     .it_v_wrap img {
         width: 200px;

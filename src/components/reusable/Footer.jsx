@@ -14,15 +14,21 @@ const Footer = () =>
             <div className='row'>
               <div className='col-lg-4'>
                 <div className='footer_card'>
-                  <div className='card_icon'>
-                    <BiMap />
+                  <div>
+                    <div className='card_icon'>
+                      <BiMap />
+                    </div>
                   </div>
+              
                   <div className='f_c_text'>
                     <h2 className='sub_heading_title2'>
                       OFFICE ADDRESS
                     </h2>
+                    <p className='mb-3'>
+                      2nd floor, 331-B, Block-C4B, Janakpuri, New Delhi-110058 (Day Shift)
+                    </p>
                     <p>
-                      898,3rd floor, Vivekananda Block,Sarawati Vihar,Gurugram
+                      2nd Floor, 512, Udyog Vihar Phase V, Sector 19, Gurugram, Haryana 122008 (Night Shift)
                     </p>
                   </div>
                 </div>

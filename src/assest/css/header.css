@@ -191,7 +191,7 @@
     }
     .toggle_icon {
         display: block;
-        font-size: var(--font-size-icon);
+        font-size: 30px !important;
     }
     .dropdown-content {
         left: -170%;
@@ -208,7 +208,7 @@
 }
 @media (max-width: 567px) {
     .logo img {
-        width: 140px;
+        width: 110px;
     }
     .reach_out_wrap .contact_dt_card {
         padding: 10px 0px 10px 10px;

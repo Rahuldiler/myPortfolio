@@ -29,7 +29,7 @@ const TechNeeds = () =>
                   <span className='call_nm ms-2'>
                     <p className='detail_text mb-1'>Call To ask Any Query</p>
                     <a href="tel:+91 8607013464">
-                      +91 8607013464
+                      +91 9818113799
                     </a>
                   </span>
                 </div>
@@ -38,7 +38,7 @@ const TechNeeds = () =>
                 <div className='founder_bx'>
                   <span>
                     <p className='detail_text'>Founder & CEO</p>
-                    <h2>Rahul Yadav</h2>
+                    <h2>M.Sahani</h2>
                   </span>
                 </div>
               </div>

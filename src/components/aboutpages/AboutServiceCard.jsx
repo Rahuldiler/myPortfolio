@@ -11,7 +11,7 @@ const serviceArray = [
         title: "Cloud Services",
         detail: " We offer comprehensive cloud solutions to help businesses harness......",
         link: "/service/detail",
-        num:"01"
+        num: "01"
     },
     {
         id: 2,
@@ -58,6 +58,7 @@ const ServiceCard = () =>
                                             </p>
                                             <Link className='smoke_btn' to={`${index.link}/${index.id}`}>Read More</Link>
                                         </div>
+
                                     </div>
                                 </>
                             )

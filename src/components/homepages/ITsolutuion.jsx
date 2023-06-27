@@ -46,7 +46,7 @@ const ITsolutuion = () =>
                                             24 HOURS SERVICE AVAILABLE
                                         </p>
                                         <h2>
-                                            Call Us: <Link to="/">(+91)8607013464</Link>
+                                            Call Us: <Link to="/">(+91)9818113799</Link>
                                         </h2>
                                     </div>
                                 </div>

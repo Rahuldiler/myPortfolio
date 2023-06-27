@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logoImg from "../../assest/images/logo.svg";
+import logoImg from "../../assest/images/mainlogo.jpg";
 import "../../assest/css/header.css";
 import
 {
@@ -27,7 +27,7 @@ const Header = () =>
             </span>
             <div>
               <p>Call Anytime 24/7</p>
-              <Link>(+91 8607013464)</Link>
+              <Link>(+91 9818113799)</Link>
             </div>
           </div>
           <div className='contact_dt_card'>
@@ -36,7 +36,7 @@ const Header = () =>
             </span>
             <div>
               <p>Mail Us for support</p>
-              <Link>info@gmail.com</Link>
+              <Link>toponsearch2015@gmail.com</Link>
             </div>
           </div>
           <div className='contact_dt_card'>
@@ -45,7 +45,7 @@ const Header = () =>
             </span>
             <div>
               <p>office Address</p>
-              <Link>Sector 14, Gurgaon</Link>
+              <Link>2nd floor, 331-B,Janakpuri<br/> New Delhi-110058</Link>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ const GetTouch = () =>
                         <div className='col-lg-6'>
                             <div className='office_address'>
                                 <h3 className='main_heading_title mt-0'>
-                                    United State Office Address
+                                    Main Branch Office Address
                                 </h3>
                                 <p className='paragraph'>
                                     Completely recaptiualize 24/7 communities via standards compliant
@@ -28,8 +28,8 @@ const GetTouch = () =>
                                             <h3 className='mt-0'>
                                                 Phone Number & Email
                                             </h3>
-                                            <p className='paragraph mb-0'>+(91)8607013464</p>
-                                            <p className='paragraph mb-0'>rkSolutions@gmail.com</p>
+                                            <p className='paragraph mb-0'>+(91)9818113799</p>
+                                            <p className='paragraph mb-0'>toponsearch2015@gmail.com</p>
                                         </span>
                                     </li>
                                     <li>
@@ -39,10 +39,10 @@ const GetTouch = () =>
                                                 Our Office Address
                                             </h3>
                                             <p className='paragraph mb-0'>
-                                                898,3rd floor, Vivekananda Block
+                                                2nd floor, 331-B, Block-C4B
                                             </p>
                                             <p className='paragraph mb-0'>
-                                                Sarawati Vihar,Gurugram
+                                                Janakpuri, New Delhi-110058
                                             </p>
                                         </span>
                                     </li>
